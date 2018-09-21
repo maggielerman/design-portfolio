@@ -1,0 +1,59 @@
+page-header-body {
+  height: 100%;
+  width: 100%;
+  padding: 100px 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  font-family: 'Noto Serif KR', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'PT Serif', serif;
+  font-weight: 100;
+}
+
+page-header {
+  font-family: 'EB Garamond', serif;
+  text-align: center!important;
+ font-size: 30px;
+  color: #000000;
+  text-shadow: 0 0 #f60101, .08em 0 0 #fff, 0 0, -.08em 0 0 #fff;
+  background: -webkit-linear-gradient(#f60101, #f60101) center 1.09em no-repeat;
+  background: linear-gradient(#f60101, #f60101) center 1.09em no-repeat;
+  background-size:90% 4px;
+  -webkit-transition: .2s ease;
+  transition: .2s ease;
+}
+
+page-header:hover {
+  background-size: 95% 4px;
+}
+@media(max-width:1000px)
+{
+    page-header {
+        font-family: 'EB Garamond', serif;
+        text-align: center!important;
+        font-size: 20px;
+        color: #000000;
+        text-shadow: 0 0 #f60101, .08em 0 0 #fff, 0 0, -.08em 0 0 #fff;
+        background: -webkit-linear-gradient(#f60101, #f60101) center 1.09em no-repeat;
+        background: linear-gradient(#f60101, #f60101) center 1.09em no-repeat;
+        background-size:90% 4px;
+        -webkit-transition: .2s ease;
+        transition: .2s ease;
+    }
+}
+@media(max-width:960px)
+{
+    page-header {
+        font-family: 'EB Garamond', serif;
+        text-align: center!important;
+        font-size: 15px;
+        color: #000000;
+        text-shadow: 0 0 #f60101, .08em 0 0 #fff, 0 0, -.08em 0 0 #fff;
+        background: -webkit-linear-gradient(#f60101, #f60101) center 1.09em no-repeat;
+        background: linear-gradient(#f60101, #f60101) center 1.09em no-repeat;
+        background-size:90% 4px;
+        -webkit-transition: .2s ease;
+        transition: .2s ease;
+    }
+}

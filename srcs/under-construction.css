@@ -1,0 +1,22 @@
+html, body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  background: url(https://media.giphy.com/media/xT77XYfBvO9i2or9Li/giphy.gif);
+  background-size: cover;
+  background-position: center;
+}
+h1 {
+  font-family: monospace;
+  text-transform: uppercase;
+  border: 5px deeppink;
+  padding: 0.5em;
+  color: deeppink;
+  cursor: default;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
